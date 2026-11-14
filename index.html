@@ -898,10 +898,10 @@
         function launchWhatsAppWithFilter() {
             const client = document.getElementById('user-business-name').value.trim() || 'un negocio';
             const service = serviceOptions[selectedNeedIdx].title;
-            const text = `Hola *GRÁFICOS* 👋, soy *${client}*.\n\n` +
+            const text = `Hola *GRÁFICOS*, soy *${client}*.\n\n` +
                          `Acabo de usar el filtro de su web y necesito:\n` +
-                         `✅ *Servicio:* ${service}\n` +
-                         `📌 *Etapa:* ${selectedStage}\n\n` +
+                         `*Servicio:* ${service}\n` +
+                         `*Etapa:* ${selectedStage}\n\n` +
                          `¿Me regalan precios y cómo empezamos?`;
             window.open(`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
         }
@@ -929,7 +929,7 @@
         }
 
         function directWa(serviceName) {
-            const text = `Hola *GRÁFICOS* 👋, vi su página web y quiero cotizar:\n👉 *${serviceName}*`;
+            const text = `Hola *GRÁFICOS*, vi su página web y quiero cotizar:\n*${serviceName}*`;
             window.open(`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
         }
     </script>
