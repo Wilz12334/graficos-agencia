@@ -1,10 +1,1 @@
-const menu = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav');
-menu?.addEventListener('click', () => {
-  const open = nav.classList.toggle('open');
-  menu.setAttribute('aria-expanded', String(open));
-});
-document.querySelectorAll('.nav a').forEach((link) => link.addEventListener('click', () => {
-  nav.classList.remove('open');
-  menu?.setAttribute('aria-expanded', 'false');
-}));
+const menu=document.querySelector('.hamb'),nav=document.querySelector('nav');menu?.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));const map={'Logo e Imagen Profesional':'Diseño de Logo e Identidad Visual Completa','Contenido para mis Redes':'Contenido Estratégico para Redes Sociales','Publicidad para Vender Más':'Campaña de Publicidad para WhatsApp','Menú, Catálogo o Página Web':'Menú, Catálogo o Página Web Profesional'};document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.choices button').forEach(x=>x.classList.remove('active'));b.classList.add('active');const name=map[b.dataset.name]||b.dataset.name;document.querySelector('#recommendation').textContent=name;document.querySelector('#quote').href='https://wa.me/573045666366?text='+encodeURIComponent('Hola Gráficos, quiero cotizar: '+name+'.')}));
