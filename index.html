@@ -1,1 +1,937 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=https://sites.google.com/view/grficos-agenciadediseomarketin/full-page-embed"><title>Gráficos - Agencia de Diseño, Marketing y Estrategia</title></head><body><p>Redirigiendo a <a href="https://sites.google.com/view/grficos-agenciadediseomarketin/full-page-embed">Gráficos</a>…</p><script>location.replace('https://sites.google.com/view/grficos-agenciadediseomarketin/full-page-embed');</script></body></html>
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRÁFICOS | Tu negocio merece verse mejor</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tipografías Editorial + UI de Alta Gama -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,600;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Iconos Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,1,0" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        petroleo: {
+                            DEFAULT: '#1F3A5F',
+                            dark: '#0E1D33',
+                            deep: '#081221',
+                            light: '#2A4D7C'
+                        },
+                        naranja: {
+                            DEFAULT: '#E67E22',
+                            hover: '#D35400',
+                            glow: '#FF9233',
+                            soft: '#FFF6EE'
+                        },
+                        gris: '#F5F5F5',
+                        blanco: '#FFFFFF'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .material-symbols-rounded {
+            font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Textura de ruido sutil estilo estudio Awwwards */
+        .bg-studio-hero {
+            background-color: #0E1D33;
+            background-image: 
+                radial-gradient(at 85% 15%, rgba(230, 126, 34, 0.25) 0px, transparent 45%),
+                radial-gradient(at 15% 50%, rgba(31, 58, 95, 0.9) 0px, transparent 55%),
+                radial-gradient(at 70% 85%, rgba(42, 77, 124, 0.45) 0px, transparent 50%);
+        }
+        /* Tarjetas Bento con elevación de lujo */
+        .bento-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .bento-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 25px 50px -12px rgba(31, 58, 95, 0.16);
+        }
+        /* Pasarela infinita fluida */
+        @keyframes marqueeScroll {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .marquee-container {
+            display: flex;
+            width: max-content;
+            animation: marqueeScroll 32s linear infinite;
+        }
+        .marquee-container:hover {
+            animation-play-state: paused;
+        }
+        /* Perspectiva suave para el Mockup del Hero (activa en escritorio, frontal limpia en celular) */
+        @media (min-width: 1024px) {
+            .laptop-mockup {
+                transform: perspective(1200px) rotateY(-8deg) rotateX(3deg);
+                transition: transform 0.5s ease;
+            }
+            .laptop-mockup:hover {
+                transform: perspective(1200px) rotateY(-2deg) rotateX(1deg);
+            }
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-gris text-slate-900 font-sans antialiased selection:bg-naranja selection:text-blanco overflow-x-hidden">
+
+    <!-- 1. NAVBAR FLOTANTE TIPO CÁPSULA (Referencia Apple / Linear 2026) -->
+    <div class="fixed top-4 inset-x-0 z-50 px-4 sm:px-6 pointer-events-none">
+        <header class="max-w-6xl mx-auto bg-petroleo-dark/85 backdrop-blur-xl border border-white/15 rounded-full px-4 sm:px-6 h-16 flex items-center justify-between shadow-2xl pointer-events-auto">
+            
+            <!-- Logo Vectorial Idéntico a la Imagen -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-9 h-9 flex-shrink-0 transition-transform group-hover:scale-105">
+                    <svg viewBox="0 0 110 110" class="w-full h-full">
+                        <path d="M 80 28 C 66 15, 42 15, 27 30 C 12 45, 12 70, 27 85 C 38 96, 54 98, 68 92 L 62 76 C 53 80, 43 78, 37 71 C 29 62, 29 48, 38 39 C 47 30, 61 30, 70 39 Z" fill="#FFFFFF"/>
+                        <polygon points="52,53 74,53 69,67 47,67" fill="#FFFFFF"/>
+                        <path d="M 28 93 C 52 99, 78 86, 89 58 L 98 63 L 96 34 L 70 48 L 78 52 C 68 74, 48 86, 28 93 Z" fill="#E67E22"/>
+                    </svg>
+                </div>
+                <div class="h-6 w-[1px] bg-white/25"></div>
+                <div>
+                    <span class="font-display font-extrabold text-lg sm:text-xl tracking-wider text-blanco block leading-none">GRÁFICOS</span>
+                    <span class="text-[8px] font-bold tracking-[0.18em] text-white/75 block mt-0.5">
+                        DISEÑO <span class="text-naranja">•</span> MARKETING <span class="text-naranja">•</span> ESTRATEGIA
+                    </span>
+                </div>
+            </a>
+
+            <!-- Enlaces limpios -->
+            <nav class="hidden md:flex items-center gap-8 text-xs font-semibold tracking-wide text-white/80">
+                <a href="#soluciones" class="hover:text-blanco transition-colors">Lo que hacemos por ti</a>
+                <a href="#pasarela" class="hover:text-blanco transition-colors">Trabajos visuales</a>
+                <a href="#comparativa" class="hover:text-blanco transition-colors">Por qué elegirnos</a>
+                <a href="#preguntas" class="hover:text-blanco transition-colors">Preguntas</a>
+            </nav>
+
+            <!-- Acciones Derecha (CTA + Botón Menú Celular) -->
+            <div class="flex items-center gap-2">
+                <a href="#asistente" class="bg-naranja hover:bg-naranja-hover text-blanco font-display font-bold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-full shadow-lg shadow-naranja/30 flex items-center gap-1.5 transition-all hover:scale-105 active:scale-95">
+                    <span>Cotizar</span>
+                    <span class="hidden sm:inline">mi negocio</span>
+                    <span class="material-symbols-rounded text-base">north_east</span>
+                </a>
+                <button onclick="toggleMobileNav()" aria-label="Abrir menú" class="md:hidden w-10 h-10 rounded-full bg-white/10 text-blanco flex items-center justify-center active:scale-95 transition-transform">
+                    <span id="mobile-nav-icon" class="material-symbols-rounded text-xl">menu</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Menú Desplegable para Celular -->
+        <div id="mobile-nav-drawer" class="hidden md:hidden max-w-6xl mx-auto mt-2 bg-petroleo-dark/95 backdrop-blur-xl border border-white/15 rounded-3xl p-4 shadow-2xl pointer-events-auto">
+            <div class="grid grid-cols-2 gap-2 text-xs font-bold text-blanco">
+                <a href="#soluciones" onclick="toggleMobileNav()" class="p-3 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center gap-2">
+                    <span class="material-symbols-rounded text-naranja text-base">grid_view</span>
+                    <span>Servicios</span>
+                </a>
+                <a href="#pasarela" onclick="toggleMobileNav()" class="p-3 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center gap-2">
+                    <span class="material-symbols-rounded text-naranja text-base">collections</span>
+                    <span>Ejemplos</span>
+                </a>
+                <a href="#comparativa" onclick="toggleMobileNav()" class="p-3 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center gap-2">
+                    <span class="material-symbols-rounded text-naranja text-base">verified</span>
+                    <span>Beneficios</span>
+                </a>
+                <a href="#preguntas" onclick="toggleMobileNav()" class="p-3 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center gap-2">
+                    <span class="material-symbols-rounded text-naranja text-base">help</span>
+                    <span>Preguntas</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. HERO DE IMPACTO VISUAL (Inspirado directamente en tu foto de estudio) -->
+    <section class="bg-studio-hero text-blanco pt-24 pb-16 sm:pt-36 sm:pb-28 relative overflow-hidden">
+        <!-- Esquinas decorativas diagonales como en tu imagen original -->
+        <div class="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-petroleo-light/60 to-transparent -translate-x-12 -translate-y-12 rotate-45 pointer-events-none"></div>
+        <div class="absolute top-0 right-0 w-44 h-44 bg-gradient-to-bl from-naranja to-transparent translate-x-16 -translate-y-16 rotate-12 opacity-80 pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Columna Izquierda: Tipografía de Gran Calibre -->
+                <div class="lg:col-span-6 space-y-5 sm:space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 backdrop-blur-md">
+                        <span class="w-2 h-2 rounded-full bg-naranja animate-ping flex-shrink-0"></span>
+                        <span class="text-[11px] sm:text-xs font-medium text-white/90">Hacemos que tu negocio se vea tan bueno como realmente es</span>
+                    </div>
+
+                    <h1 class="font-display font-extrabold text-[42px] sm:text-6xl lg:text-[64px] leading-[1.04] tracking-tight">
+                        Tu negocio <br>
+                        merece <br>
+                        <span class="text-naranja italic inline-block relative pb-2">
+                            verse mejor.
+                            <!-- Trazo curvo idéntico a la imagen -->
+                            <svg class="w-[95%] h-3.5 sm:h-4 mt-1" viewBox="0 0 320 18" fill="none">
+                                <path d="M5 14C95 3 215 1 315 11" stroke="#E67E22" stroke-width="6.5" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-white/80 leading-relaxed max-w-lg font-normal">
+                        Diseñamos tu imagen, creamos el contenido de tus redes y traemos clientes nuevos a tu WhatsApp. <strong>Sin palabras raras y sin que tengas que saber de marketing.</strong>
+                    </p>
+
+                    <!-- Botones de Acción Inmediata -->
+                    <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
+                        <a href="#asistente" class="bg-naranja hover:bg-naranja-hover text-blanco font-display font-bold text-base px-7 py-4 rounded-2xl shadow-xl shadow-naranja/25 flex items-center justify-center gap-3 transition-all hover:-translate-y-0.5">
+                            <span>Cotizar en 3 clics</span>
+                            <span class="material-symbols-rounded">arrow_forward</span>
+                        </a>
+                        <a href="#soluciones" class="bg-white/10 hover:bg-white/15 text-blanco font-semibold text-sm px-6 py-4 rounded-2xl border border-white/15 backdrop-blur-md flex items-center justify-center gap-2 transition-all">
+                            <span class="material-symbols-rounded text-naranja">visibility</span>
+                            <span>Ver ejemplos visuales</span>
+                        </a>
+                    </div>
+
+                    <!-- Mini indicadores visuales -->
+                    <div class="pt-4 grid grid-cols-3 gap-4 border-t border-white/10 max-w-md">
+                        <div>
+                            <p class="font-display font-extrabold text-xl sm:text-2xl text-blanco">100%</p>
+                            <p class="text-[11px] text-white/65">Acompañamiento</p>
+                        </div>
+                        <div>
+                            <p class="font-display font-extrabold text-xl sm:text-2xl text-naranja">+Ventas</p>
+                            <p class="text-[11px] text-white/65">Imagen que da confianza</p>
+                        </div>
+                        <div>
+                            <p class="font-display font-extrabold text-xl sm:text-2xl text-blanco">Rápido</p>
+                            <p class="text-[11px] text-white/65">Directo al grano</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Mockup de Laptop de Estudio (Como en tu imagen) -->
+                <div class="lg:col-span-6">
+                    <div class="laptop-mockup relative mx-auto max-w-lg lg:max-w-none">
+                        <!-- Resplandor cálido de lámpara detrás de la pantalla -->
+                        <div class="absolute -top-10 -right-6 w-48 h-48 bg-amber-400/25 rounded-full blur-3xl pointer-events-none"></div>
+
+                        <!-- Marco de pantalla estilo MacBook Pro -->
+                        <div class="bg-[#0B1320] rounded-2xl p-2.5 sm:p-3.5 shadow-[0_30px_70px_rgba(0,0,0,0.65)] border border-white/20">
+                            <!-- Barra superior de cámara -->
+                            <div class="flex items-center justify-between px-3 pb-2.5 border-b border-white/10">
+                                <div class="flex items-center gap-1.5">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
+                                    <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+                                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                                </div>
+                                <span class="text-[10px] text-white/50 font-mono">Estudio Creativo — GRÁFICOS</span>
+                                <span class="text-[10px] text-naranja font-bold">● EN VIVO</span>
+                            </div>
+
+                            <!-- Interior de la pantalla dividida tal cual tu foto -->
+                            <div class="grid grid-cols-12 gap-2.5 pt-2.5">
+                                <!-- Galería de piezas gastronómicas y comerciales (Izquierda de la pantalla) -->
+                                <div class="col-span-6 grid grid-cols-2 gap-2">
+                                    <div class="relative rounded-lg overflow-hidden h-28 group">
+                                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400&q=80" alt="Diseño Gastronómico" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-2">
+                                            <span class="text-[9px] font-bold text-blanco leading-tight">Posts que abren el apetito</span>
+                                        </div>
+                                    </div>
+                                    <div class="relative rounded-lg overflow-hidden h-28 group">
+                                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=400&q=80" alt="Fotografía y Menús" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-2">
+                                            <span class="text-[9px] font-bold text-naranja leading-tight">Catálogos y Menús</span>
+                                        </div>
+                                    </div>
+                                    <div class="relative rounded-lg overflow-hidden h-28 group">
+                                        <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=400&q=80" alt="Empaques y Bolsas" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-2">
+                                            <span class="text-[9px] font-bold text-blanco leading-tight">Marcas y Empaques</span>
+                                        </div>
+                                    </div>
+                                    <div class="relative rounded-lg overflow-hidden h-28 group">
+                                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80" alt="Ventas por Celular" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-2">
+                                            <span class="text-[9px] font-bold text-emerald-400 leading-tight">Clientes al WhatsApp</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Lienzo de Identidad GRÁFICOS (Derecha de la pantalla) -->
+                                <div class="col-span-6 bg-gradient-to-br from-petroleo to-petroleo-deep rounded-xl p-4 flex flex-col items-center justify-center text-center border border-white/10 relative overflow-hidden">
+                                    <div class="w-20 h-20 mb-2">
+                                        <svg viewBox="0 0 110 110" class="w-full h-full drop-shadow-lg">
+                                            <path d="M 80 28 C 66 15, 42 15, 27 30 C 12 45, 12 70, 27 85 C 38 96, 54 98, 68 92 L 62 76 C 53 80, 43 78, 37 71 C 29 62, 29 48, 38 39 C 47 30, 61 30, 70 39 Z" fill="#FFFFFF"/>
+                                            <polygon points="52,53 74,53 69,67 47,67" fill="#FFFFFF"/>
+                                            <path d="M 28 93 C 52 99, 78 86, 89 58 L 98 63 L 96 34 L 70 48 L 78 52 C 68 74, 48 86, 28 93 Z" fill="#E67E22"/>
+                                        </svg>
+                                    </div>
+                                    <p class="font-display font-extrabold text-sm text-blanco">Diseño Profesional</p>
+                                    <p class="text-[11px] text-white/70 mt-1">Transformamos negocios comunes en marcas admiradas.</p>
+                                    <span class="mt-3 px-3 py-1 rounded-full bg-naranja text-blanco text-[10px] font-bold">
+                                        Calidad de Agencia
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tarjeta Flotante Superpuesta: Notificación real de cliente -->
+                        <div class=" -bottom-5 -left-4 sm:absolute bg-blanco text-slate-800 p-3.5 rounded-2xl shadow-2xl border border-slate-100 flex items-center gap-3 mt-4 sm:mt-0 max-w-xs">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500 text-blanco flex items-center justify-center flex-shrink-0">
+                                <span class="material-symbols-rounded">trending_up</span>
+                            </div>
+                            <div>
+                                <p class="text-xs font-extrabold text-petroleo">"Ahora sí nos escriben clientes todos los días"</p>
+                                <p class="text-[11px] text-slate-500">Resultados visibles desde el primer mes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. CINTA EDITORIAL EN MOVIMIENTO -->
+    <div class="bg-naranja text-blanco py-3.5 overflow-hidden shadow-md">
+        <div class="marquee-container flex items-center gap-10 text-xs sm:text-sm font-display font-extrabold uppercase tracking-wider">
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">verified</span> Logos y Marcas Memorables</span>
+            <span>•</span>
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">photo_camera</span> Redes Sociales que sí Venden</span>
+            <span>•</span>
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">ads_click</span> Publicidad Directa a tu WhatsApp</span>
+            <span>•</span>
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">restaurant_menu</span> Menús, Catálogos y Páginas Web</span>
+            <span>•</span>
+            <!-- Duplicado para efecto continuo -->
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">verified</span> Logos y Marcas Memorables</span>
+            <span>•</span>
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">photo_camera</span> Redes Sociales que sí Venden</span>
+            <span>•</span>
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">ads_click</span> Publicidad Directa a tu WhatsApp</span>
+            <span>•</span>
+            <span class="flex items-center gap-2"><span class="material-symbols-rounded text-lg">restaurant_menu</span> Menús, Catálogos y Páginas Web</span>
+            <span>•</span>
+        </div>
+    </div>
+
+    <!-- 4. BENTO GRID VISUAL DE SOLUCIONES (Atractiva, Fotográfica y Cero Técnica) -->
+    <section id="soluciones" class="py-20 sm:py-28 bg-blanco">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            
+            <!-- Encabezado Editorial -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+                <div class="max-w-2xl">
+                    <span class="inline-flex items-center gap-1.5 text-naranja font-extrabold text-xs uppercase tracking-widest">
+                        <span class="w-2 h-2 rounded-full bg-naranja"></span> Soluciones claras y visuales
+                    </span>
+                    <h2 class="font-display font-extrabold text-3xl sm:text-5xl text-petroleo tracking-tight mt-2 leading-tight">
+                        No te vendemos palabras raras.<br>
+                        <span class="text-naranja">Te entregamos esto:</span>
+                    </h2>
+                </div>
+                <p class="text-slate-600 text-sm sm:text-base max-w-sm">
+                    Toca cualquiera de las 4 áreas y nuestro filtro inteligente armará tu cotización al instante.
+                </p>
+            </div>
+
+            <!-- Bento Grid Asimétrica Estilo Apple/Stripe -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+                <!-- BENTO 1: Imagen y Logo (7 columnas) -->
+                <div onclick="selectAndScroll(0)" class="bento-card cursor-pointer lg:col-span-7 bg-petroleo rounded-[32px] p-7 sm:p-9 text-blanco relative overflow-hidden flex flex-col justify-between min-h-[360px] group">
+                    <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=900&q=80" alt="Diseño de Logo y Marca" class="absolute inset-0 w-full h-full object-cover opacity-25 group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-petroleo-deep via-petroleo/80 to-transparent"></div>
+
+                    <div class="relative z-10 flex items-center justify-between">
+                        <span class="bg-naranja text-blanco text-xs font-extrabold px-4 py-1.5 rounded-full">
+                            01. Imagen Profesional
+                        </span>
+                        <span class="w-11 h-11 rounded-full bg-white/15 backdrop-blur-md flex items-center justify-center group-hover:bg-naranja transition-colors">
+                            <span class="material-symbols-rounded">north_east</span>
+                        </span>
+                    </div>
+
+                    <div class="relative z-10 mt-12">
+                        <h3 class="font-display font-extrabold text-2xl sm:text-3xl leading-snug">
+                            "Quiero que mi negocio se vea serio, confiable y de alto nivel"
+                        </h3>
+                        <p class="text-white/80 text-sm sm:text-base mt-3 max-w-xl">
+                            Creamos o renovamos tu <strong>Logo, colores, empaques, uniformes y papelería</strong>. Ideal si vas a abrir un negocio o si sientes que tu imagen actual ya se quedó atrás.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-5">
+                            <span class="text-xs bg-white/10 px-3 py-1 rounded-full">✓ Creación de Logo</span>
+                            <span class="text-xs bg-white/10 px-3 py-1 rounded-full">✓ Cambio de Imagen</span>
+                            <span class="text-xs bg-white/10 px-3 py-1 rounded-full">✓ Empaques y Tarjetas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BENTO 2: Redes Sociales (5 columnas) -->
+                <div onclick="selectAndScroll(1)" class="bento-card cursor-pointer lg:col-span-5 bg-gris rounded-[32px] p-7 sm:p-9 border border-slate-200/80 relative overflow-hidden flex flex-col justify-between min-h-[360px] group">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-petroleo text-blanco text-xs font-extrabold px-4 py-1.5 rounded-full">
+                            02. Redes Sociales
+                        </span>
+                        <span class="w-11 h-11 rounded-full bg-petroleo/10 text-petroleo flex items-center justify-center group-hover:bg-naranja group-hover:text-blanco transition-colors">
+                            <span class="material-symbols-rounded">north_east</span>
+                        </span>
+                    </div>
+
+                    <!-- Mini preview visual de Instagram -->
+                    <div class="my-5 grid grid-cols-3 gap-2">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=300&q=80" alt="Post 1" class="h-24 w-full object-cover rounded-xl shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=300&q=80" alt="Post 2" class="h-24 w-full object-cover rounded-xl shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=300&q=80" alt="Post 3" class="h-24 w-full object-cover rounded-xl shadow-sm">
+                    </div>
+
+                    <div>
+                        <h3 class="font-display font-extrabold text-2xl text-petroleo leading-snug">
+                            "No tengo tiempo ni ideas para publicar en Instagram o Facebook"
+                        </h3>
+                        <p class="text-slate-600 text-sm mt-2">
+                            Diseñamos tus imágenes, carruseles y videos (Reels) para que tus redes se vean activas, ordenadas y den ganas de comprarte.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- BENTO 3: Atraer Clientes y Ventas (5 columnas) -->
+                <div onclick="selectAndScroll(2)" class="bento-card cursor-pointer lg:col-span-5 bg-naranja-soft rounded-[32px] p-7 sm:p-9 border-2 border-naranja/30 relative overflow-hidden flex flex-col justify-between min-h-[340px] group">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-naranja text-blanco text-xs font-extrabold px-4 py-1.5 rounded-full">
+                            03. Más Clientes al WhatsApp
+                        </span>
+                        <span class="w-11 h-11 rounded-full bg-naranja text-blanco flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-rounded">north_east</span>
+                        </span>
+                    </div>
+
+                    <!-- Ilustración gráfica de mensajes llegando -->
+                    <div class="my-4 bg-blanco p-4 rounded-2xl shadow-md border border-naranja/20 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-[#25D366] text-blanco flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-rounded">chat</span>
+                        </div>
+                        <div>
+                            <p class="text-xs font-extrabold text-petroleo">Nuevo mensaje de cliente</p>
+                            <p class="text-[11px] text-slate-500">"Hola, vi su anuncio y quiero comprar..."</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="font-display font-extrabold text-2xl text-petroleo leading-snug">
+                            "Necesito que más gente conozca mi negocio y me escriba"
+                        </h3>
+                        <p class="text-slate-700 text-sm mt-2">
+                            Activamos anuncios inteligentes para que tu negocio le salga en el celular a las personas de tu ciudad listas para comprar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- BENTO 4: Catálogos, Menús y Páginas Web (7 columnas) -->
+                <div onclick="selectAndScroll(3)" class="bento-card cursor-pointer lg:col-span-7 bg-gris rounded-[32px] p-7 sm:p-9 border border-slate-200/80 relative overflow-hidden flex flex-col justify-between min-h-[340px] group">
+                    <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center h-full">
+                        <div class="sm:col-span-7 flex flex-col justify-between h-full space-y-4">
+                            <div class="flex items-center gap-2">
+                                <span class="bg-petroleo text-blanco text-xs font-extrabold px-4 py-1.5 rounded-full">
+                                    04. Menús, Catálogos y Web
+                                </span>
+                            </div>
+                            <h3 class="font-display font-extrabold text-2xl sm:text-3xl text-petroleo leading-snug">
+                                "Quiero mostrar mis productos y precios de forma impecable"
+                            </h3>
+                            <p class="text-slate-600 text-sm">
+                                Diseñamos <strong>menús para restaurantes, catálogos interactivos en PDF</strong> para mandar por WhatsApp o tu propia <strong>página web rápida</strong>.
+                            </p>
+                            <span class="inline-flex items-center gap-1.5 text-naranja font-extrabold text-sm group-hover:translate-x-1 transition-transform">
+                                <span>Cotizar este servicio</span>
+                                <span class="material-symbols-rounded text-base">arrow_forward</span>
+                            </span>
+                        </div>
+                        <div class="sm:col-span-5">
+                            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=600&q=80" alt="Diseño Web y Catálogos" class="w-full h-56 object-cover rounded-2xl shadow-lg group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PASARELA VISUAL CON IMÁGENES REALES (Showcase Horizontal) -->
+    <section id="pasarela" class="py-20 bg-petroleo-dark text-blanco overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-naranja font-extrabold text-xs uppercase tracking-widest">Inspiración Real</span>
+                    <h2 class="font-display font-extrabold text-3xl sm:text-4xl mt-1">
+                        Así se ve un negocio trabajado por GRÁFICOS
+                    </h2>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button onclick="scrollShowcase(-1)" aria-label="Anterior" class="w-12 h-12 rounded-full bg-white/10 hover:bg-naranja text-blanco flex items-center justify-center transition-colors">
+                        <span class="material-symbols-rounded">west</span>
+                    </button>
+                    <button onclick="scrollShowcase(1)" aria-label="Siguiente" class="w-12 h-12 rounded-full bg-naranja hover:bg-naranja-hover text-blanco flex items-center justify-center transition-colors">
+                        <span class="material-symbols-rounded">east</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Galería Deslizable -->
+            <div id="showcase-slider" class="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory pb-4">
+                
+                <!-- Caso 1 -->
+                <div class="min-w-[300px] sm:min-w-[380px] bg-petroleo rounded-3xl overflow-hidden border border-white/10 snap-start group">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80" alt="Restaurantes y Gastronomía" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <span class="absolute top-4 left-4 bg-naranja text-blanco text-xs font-extrabold px-3.5 py-1 rounded-full shadow">
+                            Gastronomía y Cafés
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-display font-extrabold text-xl">Menús y Redes que despiertan el hambre</h3>
+                        <p class="text-white/75 text-sm mt-2">Hacemos que tus platos se vean irresistibles en redes sociales y en tu carta física o digital.</p>
+                        <button onclick="selectAndScroll(3)" class="mt-5 text-naranja font-bold text-xs flex items-center gap-1 hover:underline">
+                            <span>Lo quiero para mi negocio</span>
+                            <span class="material-symbols-rounded text-base">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Caso 2 -->
+                <div class="min-w-[300px] sm:min-w-[380px] bg-petroleo rounded-3xl overflow-hidden border border-white/10 snap-start group">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=80" alt="Empresas y Consultorios" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <span class="absolute top-4 left-4 bg-petroleo-dark text-blanco text-xs font-extrabold px-3.5 py-1 rounded-full shadow">
+                            Empresas y Profesionales
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-display font-extrabold text-xl">Identidad Corporativa de Autoridad</h3>
+                        <p class="text-white/75 text-sm mt-2">Para médicos, abogados, constructoras y comercios que necesitan proyectar máxima seriedad.</p>
+                        <button onclick="selectAndScroll(0)" class="mt-5 text-naranja font-bold text-xs flex items-center gap-1 hover:underline">
+                            <span>Lo quiero para mi negocio</span>
+                            <span class="material-symbols-rounded text-base">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Caso 3 -->
+                <div class="min-w-[300px] sm:min-w-[380px] bg-petroleo rounded-3xl overflow-hidden border border-white/10 snap-start group">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80" alt="Tiendas y Comercios" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-blanco text-xs font-extrabold px-3.5 py-1 rounded-full shadow">
+                            Tiendas y Marcas Locales
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-display font-extrabold text-xl">Catálogos + Publicidad para Vender Diario</h3>
+                        <p class="text-white/75 text-sm mt-2">Combinamos anuncios atractivos con catálogos fáciles de mirar desde el celular para cerrar más pedidos.</p>
+                        <button onclick="selectAndScroll(2)" class="mt-5 text-naranja font-bold text-xs flex items-center gap-1 hover:underline">
+                            <span>Lo quiero para mi negocio</span>
+                            <span class="material-symbols-rounded text-base">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. COMPARATIVA CLARA: POR QUÉ UN DUEÑO DE NEGOCIO NOS PREFIERE -->
+    <section id="comparativa" class="py-20 bg-gris">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-naranja font-extrabold text-xs uppercase tracking-widest">La diferencia se nota en tus ventas</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-petroleo mt-2">
+                    Lo que pasa cuando mejoras la imagen de tu negocio
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Sin GRÁFICOS -->
+                <div class="bg-blanco p-8 rounded-3xl border border-slate-200 space-y-4">
+                    <span class="inline-block bg-slate-100 text-slate-600 text-xs font-extrabold px-3.5 py-1 rounded-full">
+                        CUANDO SE HACE IMPROVISADO
+                    </span>
+                    <h3 class="font-display font-bold text-xl text-slate-700">El cliente duda antes de comprar</h3>
+                    <ul class="space-y-3 text-sm text-slate-600">
+                        <li class="flex items-start gap-2.5">
+                            <span class="material-symbols-rounded text-rose-500 text-lg">cancel</span>
+                            <span>Tu logo se ve borroso o parecido al de muchos otros negocios.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="material-symbols-rounded text-rose-500 text-lg">cancel</span>
+                            <span>Pasas semanas sin publicar nada en redes por falta de tiempo.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="material-symbols-rounded text-rose-500 text-lg">cancel</span>
+                            <span>La gente solo pregunta "¿precio?" y te deja en visto.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Con GRÁFICOS -->
+                <div class="bg-petroleo text-blanco p-8 rounded-3xl shadow-xl border-2 border-naranja space-y-4 relative overflow-hidden">
+                    <span class="inline-block bg-naranja text-blanco text-xs font-extrabold px-3.5 py-1 rounded-full">
+                        CON EL EQUIPO DE GRÁFICOS
+                    </span>
+                    <h3 class="font-display font-bold text-xl">Tu negocio transmite confianza inmediata</h3>
+                    <ul class="space-y-3 text-sm text-white/90">
+                        <li class="flex items-start gap-2.5">
+                            <span class="material-symbols-rounded text-naranja text-lg">check_circle</span>
+                            <span>Tu marca se ve profesional y puedes cobrar lo que realmente vale tu trabajo.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="material-symbols-rounded text-naranja text-lg">check_circle</span>
+                            <span>Tus redes sociales se ven ordenadas, atractivas y activas cada semana.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <span class="material-symbols-rounded text-naranja text-lg">check_circle</span>
+                            <span>Recibes mensajes en tu WhatsApp de personas realmente interesadas.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FILTRO INTERACTIVO PRE-WHATSAPP (Súper visual, rápido y sin enredos) -->
+    <section id="asistente" class="py-20 sm:py-28 bg-blanco">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            
+            <div class="bg-petroleo rounded-[36px] p-6 sm:p-12 text-blanco shadow-2xl relative overflow-hidden">
+                <!-- Decoración de fondo -->
+                <div class="absolute -top-24 -right-24 w-72 h-72 bg-naranja/20 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="text-center max-w-xl mx-auto mb-10 relative z-10">
+                    <span class="bg-naranja text-blanco text-xs font-extrabold px-4 py-1.5 rounded-full uppercase tracking-wider">
+                        Filtro Rápido de 3 Pasos
+                    </span>
+                    <h2 class="font-display font-extrabold text-3xl sm:text-4xl mt-3">
+                        Armemos lo que tu negocio necesita hoy
+                    </h2>
+                    <p class="text-white/80 text-sm mt-2">
+                        Selecciona tus opciones con un toque para que al abrir WhatsApp ya sepamos exactamente cómo ayudarte:
+                    </p>
+                </div>
+
+                <!-- Tarjeta Interior Blanca Interactiva -->
+                <div class="bg-blanco text-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl space-y-8 relative z-10">
+                    
+                    <!-- PASO 1 -->
+                    <div>
+                        <p class="text-xs font-extrabold uppercase tracking-wider text-naranja mb-3">
+                            PASO 1 — ¿Qué quieres lograr primero?
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <button type="button" onclick="pickNeed(0)" class="need-btn text-left p-4 rounded-2xl border-2 border-naranja bg-naranja-soft flex items-center gap-3.5 transition-all">
+                                <div class="w-11 h-11 rounded-xl bg-naranja text-blanco flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-rounded">palette</span>
+                                </div>
+                                <div>
+                                    <p class="font-display font-extrabold text-petroleo text-sm sm:text-base">Logo e Imagen Profesional</p>
+                                    <p class="text-xs text-slate-500">Que mi negocio se vea serio y bonito</p>
+                                </div>
+                            </button>
+
+                            <button type="button" onclick="pickNeed(1)" class="need-btn text-left p-4 rounded-2xl border-2 border-slate-200 hover:border-petroleo/40 bg-blanco flex items-center gap-3.5 transition-all">
+                                <div class="w-11 h-11 rounded-xl bg-petroleo/10 text-petroleo flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-rounded">photo_camera</span>
+                                </div>
+                                <div>
+                                    <p class="font-display font-extrabold text-petroleo text-sm sm:text-base">Contenido para mis Redes</p>
+                                    <p class="text-xs text-slate-500">Diseños y videos para publicar</p>
+                                </div>
+                            </button>
+
+                            <button type="button" onclick="pickNeed(2)" class="need-btn text-left p-4 rounded-2xl border-2 border-slate-200 hover:border-petroleo/40 bg-blanco flex items-center gap-3.5 transition-all">
+                                <div class="w-11 h-11 rounded-xl bg-petroleo/10 text-petroleo flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-rounded">ads_click</span>
+                                </div>
+                                <div>
+                                    <p class="font-display font-extrabold text-petroleo text-sm sm:text-base">Publicidad para Vender Más</p>
+                                    <p class="text-xs text-slate-500">Que me lleguen clientes al WhatsApp</p>
+                                </div>
+                            </button>
+
+                            <button type="button" onclick="pickNeed(3)" class="need-btn text-left p-4 rounded-2xl border-2 border-slate-200 hover:border-petroleo/40 bg-blanco flex items-center gap-3.5 transition-all">
+                                <div class="w-11 h-11 rounded-xl bg-petroleo/10 text-petroleo flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-rounded">menu_book</span>
+                                </div>
+                                <div>
+                                    <p class="font-display font-extrabold text-petroleo text-sm sm:text-base">Menú, Catálogo o Página Web</p>
+                                    <p class="text-xs text-slate-500">Mostrar mis productos con claridad</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PASO 2 -->
+                    <div>
+                        <p class="text-xs font-extrabold uppercase tracking-wider text-naranja mb-3">
+                            PASO 2 — ¿En qué etapa está tu negocio?
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <button type="button" onclick="pickStage('Voy a empezar desde cero', 0)" class="stage-btn p-3.5 rounded-2xl border-2 border-naranja bg-naranja-soft text-petroleo font-bold text-xs sm:text-sm text-center transition-all">
+                                🌱 Voy a empezar de cero
+                            </button>
+                            <button type="button" onclick="pickStage('Ya tengo mi negocio funcionando', 1)" class="stage-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-blanco text-slate-700 font-semibold text-xs sm:text-sm text-center transition-all">
+                                🏪 Ya tengo negocio abierto
+                            </button>
+                            <button type="button" onclick="pickStage('Quiero todo el paquete completo', 2)" class="stage-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-blanco text-slate-700 font-semibold text-xs sm:text-sm text-center transition-all">
+                                🚀 Quiero todo completo
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PASO 3: Resumen Automático + Envío a WhatsApp -->
+                    <div class="bg-gris p-5 sm:p-6 rounded-2xl border border-slate-200">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 mb-3 border-b border-slate-200">
+                            <div>
+                                <span class="text-[11px] font-bold text-naranja uppercase">Tu Servicio Exacto Recomendado:</span>
+                                <h4 id="summary-title" class="font-display font-extrabold text-lg sm:text-xl text-petroleo">
+                                    Diseño de Logo e Identidad Visual Completa
+                                </h4>
+                            </div>
+                            <span class="bg-emerald-100 text-emerald-800 text-xs font-extrabold px-3 py-1 rounded-full w-max">
+                                Listo para cotizar
+                            </span>
+                        </div>
+                        <p id="summary-desc" class="text-xs sm:text-sm text-slate-600 mb-4">
+                            Creamos el logo de tu negocio, definimos tus colores y te entregamos todo listo para usar en redes, letreros e impresiones.
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-12 gap-3">
+                            <input type="text" id="user-business-name" placeholder="Tu nombre o el de tu negocio (Opcional)" 
+                                class="sm:col-span-5 px-4 py-3.5 rounded-xl bg-blanco border border-slate-300 text-sm focus:outline-none focus:border-naranja">
+                            <button type="button" onclick="launchWhatsAppWithFilter()" class="sm:col-span-7 bg-[#25D366] hover:bg-[#1ebe5d] text-blanco font-display font-extrabold text-sm sm:text-base py-3.5 px-6 rounded-xl shadow-lg flex items-center justify-center gap-2 transition-transform active:scale-95">
+                                <span>Recibir precio en mi WhatsApp</span>
+                                <span class="material-symbols-rounded">send</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 8. PREGUNTAS FRECUENTES CLARAS -->
+    <section id="preguntas" class="py-16 sm:py-20 bg-gris border-t border-slate-200">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10">
+                <span class="text-naranja font-extrabold text-xs uppercase tracking-widest">Cero dudas</span>
+                <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-petroleo mt-1">
+                    Preguntas Frecuentes
+                </h2>
+            </div>
+
+            <div class="space-y-3">
+                <div class="bg-blanco rounded-2xl border border-slate-200/80 overflow-hidden">
+                    <button onclick="toggleAccordion(0)" class="w-full px-6 py-4 text-left flex items-center justify-between gap-4 font-display font-bold text-petroleo text-sm sm:text-base">
+                        <span>No sé nada de marketing ni diseño, ¿ustedes me guían?</span>
+                        <span id="acc-icon-0" class="material-symbols-rounded text-naranja transition-transform rotate-180">expand_more</span>
+                    </button>
+                    <div id="acc-content-0" class="px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+                        Sí, 100%. No tienes que preocuparte por términos técnicos. Tú nos cuentas qué vendes y nosotros te proponemos las ideas, los diseños y los textos paso a paso.
+                    </div>
+                </div>
+
+                <div class="bg-blanco rounded-2xl border border-slate-200/80 overflow-hidden">
+                    <button onclick="toggleAccordion(1)" class="w-full px-6 py-4 text-left flex items-center justify-between gap-4 font-display font-bold text-petroleo text-sm sm:text-base">
+                        <span>¿Puedo contratar un solo diseño o tiene que ser mensual?</span>
+                        <span id="acc-icon-1" class="material-symbols-rounded text-naranja transition-transform">expand_more</span>
+                    </button>
+                    <div id="acc-content-1" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+                        Como prefieras. Si necesitas un Logo, un Menú, un Catálogo o una Web, haces un único pago por ese trabajo. Y si quieres que llevemos tus redes o anuncios cada mes, tenemos planes mensuales sin cláusulas de permanencia forzosas.
+                    </div>
+                </div>
+
+                <div class="bg-blanco rounded-2xl border border-slate-200/80 overflow-hidden">
+                    <button onclick="toggleAccordion(2)" class="w-full px-6 py-4 text-left flex items-center justify-between gap-4 font-display font-bold text-petroleo text-sm sm:text-base">
+                        <span>¿Cómo es el proceso para empezar a trabajar?</span>
+                        <span id="acc-icon-2" class="material-symbols-rounded text-naranja transition-transform">expand_more</span>
+                    </button>
+                    <div id="acc-content-2" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed">
+                        Muy fácil: nos escribes por WhatsApp con el botón de esta página, conversamos 5 minutos sobre lo que buscas, te damos el precio exacto y arrancamos con tu proyecto.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FOOTER ELEGANTE -->
+    <footer class="bg-petroleo-deep text-white/70 py-12 border-t border-white/10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9">
+                    <svg viewBox="0 0 110 110" class="w-full h-full">
+                        <path d="M 80 28 C 66 15, 42 15, 27 30 C 12 45, 12 70, 27 85 C 38 96, 54 98, 68 92 L 62 76 C 53 80, 43 78, 37 71 C 29 62, 29 48, 38 39 C 47 30, 61 30, 70 39 Z" fill="#FFFFFF"/>
+                        <polygon points="52,53 74,53 69,67 47,67" fill="#FFFFFF"/>
+                        <path d="M 28 93 C 52 99, 78 86, 89 58 L 98 63 L 96 34 L 70 48 L 78 52 C 68 74, 48 86, 28 93 Z" fill="#E67E22"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="font-display font-extrabold text-blanco tracking-wider block leading-none">GRÁFICOS</span>
+                    <span class="text-[10px] text-naranja font-bold tracking-widest">DISEÑO • MARKETING • ESTRATEGIA</span>
+                </div>
+            </div>
+            <p class="text-xs text-white/50">© 2026 GRÁFICOS. Tu negocio merece verse mejor.</p>
+        </div>
+    </footer>
+
+    <!-- 10. WIDGET FLOTANTE DE WHATSAPP CON PRE-FILTRO RÁPIDO -->
+    <div class="fixed bottom-4 right-4 sm:bottom-5 sm:right-5 z-50 flex flex-col items-end">
+        <div id="wa-floating-menu" class="hidden mb-3 w-[calc(100vw-2rem)] max-w-[320px] bg-blanco rounded-3xl shadow-2xl border border-slate-200 overflow-hidden">
+            <div class="bg-petroleo p-4 text-blanco flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-9 h-9 rounded-full bg-naranja flex items-center justify-center font-display font-extrabold text-sm">G</div>
+                    <div>
+                        <p class="font-display font-bold text-sm leading-none">Asesoría GRÁFICOS</p>
+                        <p class="text-[11px] text-white/75 mt-1">Elige qué necesitas antes de chatear:</p>
+                    </div>
+                </div>
+                <button onclick="toggleWaMenu()" class="text-white/70 hover:text-blanco">
+                    <span class="material-symbols-rounded">close</span>
+                </button>
+            </div>
+            <div class="p-3.5 bg-gris space-y-2">
+                <button onclick="directWa('Logo e Imagen Profesional')" class="w-full text-left bg-blanco hover:bg-naranja-soft p-3 rounded-xl border border-slate-200 hover:border-naranja text-xs font-bold text-petroleo flex items-center justify-between transition-all">
+                    <span>🎨 Hacer o renovar mi Logo / Imagen</span>
+                    <span class="material-symbols-rounded text-naranja text-base">east</span>
+                </button>
+                <button onclick="directWa('Redes Sociales y Contenido')" class="w-full text-left bg-blanco hover:bg-naranja-soft p-3 rounded-xl border border-slate-200 hover:border-naranja text-xs font-bold text-petroleo flex items-center justify-between transition-all">
+                    <span>📱 Diseños y manejo de mis Redes</span>
+                    <span class="material-symbols-rounded text-naranja text-base">east</span>
+                </button>
+                <button onclick="directWa('Publicidad para Atraer Clientes')" class="w-full text-left bg-blanco hover:bg-naranja-soft p-3 rounded-xl border border-slate-200 hover:border-naranja text-xs font-bold text-petroleo flex items-center justify-between transition-all">
+                    <span>📢 Publicidad para atraer más clientes</span>
+                    <span class="material-symbols-rounded text-naranja text-base">east</span>
+                </button>
+                <button onclick="directWa('Menú, Catálogo o Página Web')" class="w-full text-left bg-blanco hover:bg-naranja-soft p-3 rounded-xl border border-slate-200 hover:border-naranja text-xs font-bold text-petroleo flex items-center justify-between transition-all">
+                    <span>📖 Menú, Catálogo o Página Web</span>
+                    <span class="material-symbols-rounded text-naranja text-base">east</span>
+                </button>
+            </div>
+        </div>
+
+        <button onclick="toggleWaMenu()" class="flex items-center gap-2.5 bg-[#25D366] hover:bg-[#1ebe5d] text-blanco pl-4 pr-5 py-3.5 rounded-full shadow-2xl border-2 border-blanco transition-transform hover:scale-105 active:scale-95">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.124.556 4.119 1.528 5.847l-1.528 5.573 5.714-1.498c1.678.9 3.593 1.414 5.63 1.414 6.627 0 12-5.373 12-12 0-6.627-5.373-12-11.344-11.336z"/>
+            </svg>
+            <span class="font-display font-extrabold text-xs sm:text-sm">WhatsApp Directo</span>
+        </button>
+    </div>
+
+    <script>
+        const PHONE_NUMBER = '573045666366';
+
+        const serviceOptions = [
+            {
+                title: 'Diseño de Logo e Identidad Visual Completa',
+                desc: 'Creamos el logo de tu negocio, definimos tus colores y te entregamos todo listo para usar en redes, letreros e impresiones.'
+            },
+            {
+                title: 'Plan de Contenido y Diseño para Redes Sociales',
+                desc: 'Diseñamos publicaciones profesionales, historias y videos atractivos para que tus redes sociales generen confianza y ventas.'
+            },
+            {
+                title: 'Campañas de Publicidad Digital (Clientes al WhatsApp)',
+                desc: 'Configuramos anuncios efectivos en Instagram y Facebook para que personas de tu ciudad te escriban listas para comprar.'
+            },
+            {
+                title: 'Diseño de Menú, Catálogo Digital o Página Web',
+                desc: 'Organizamos tus productos, servicios y precios en un formato moderno y vendedor fácil de ver desde cualquier celular.'
+            }
+        ];
+
+        let selectedNeedIdx = 0;
+        let selectedStage = 'Voy a empezar desde cero';
+
+        function selectAndScroll(idx) {
+            pickNeed(idx);
+            document.getElementById('asistente').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function pickNeed(idx) {
+            selectedNeedIdx = idx;
+            const btns = document.querySelectorAll('.need-btn');
+            btns.forEach((btn, i) => {
+                const iconBox = btn.querySelector('div');
+                if (i === idx) {
+                    btn.className = 'need-btn text-left p-4 rounded-2xl border-2 border-naranja bg-naranja-soft flex items-center gap-3.5 transition-all';
+                    iconBox.className = 'w-11 h-11 rounded-xl bg-naranja text-blanco flex items-center justify-center flex-shrink-0';
+                } else {
+                    btn.className = 'need-btn text-left p-4 rounded-2xl border-2 border-slate-200 hover:border-petroleo/40 bg-blanco flex items-center gap-3.5 transition-all';
+                    iconBox.className = 'w-11 h-11 rounded-xl bg-petroleo/10 text-petroleo flex items-center justify-center flex-shrink-0';
+                }
+            });
+
+            document.getElementById('summary-title').textContent = serviceOptions[idx].title;
+            document.getElementById('summary-desc').textContent = serviceOptions[idx].desc;
+        }
+
+        function pickStage(stageName, idx) {
+            selectedStage = stageName;
+            const btns = document.querySelectorAll('.stage-btn');
+            btns.forEach((btn, i) => {
+                if (i === idx) {
+                    btn.className = 'stage-btn p-3.5 rounded-2xl border-2 border-naranja bg-naranja-soft text-petroleo font-bold text-xs sm:text-sm text-center transition-all';
+                } else {
+                    btn.className = 'stage-btn p-3.5 rounded-2xl border-2 border-slate-200 bg-blanco text-slate-700 font-semibold text-xs sm:text-sm text-center transition-all';
+                }
+            });
+        }
+
+        function launchWhatsAppWithFilter() {
+            const client = document.getElementById('user-business-name').value.trim() || 'un negocio';
+            const service = serviceOptions[selectedNeedIdx].title;
+            const text = `Hola *GRÁFICOS* 👋, soy *${client}*.\n\n` +
+                         `Acabo de usar el filtro de su web y necesito:\n` +
+                         `✅ *Servicio:* ${service}\n` +
+                         `📌 *Etapa:* ${selectedStage}\n\n` +
+                         `¿Me regalan precios y cómo empezamos?`;
+            window.open(`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+        }
+
+        function scrollShowcase(dir) {
+            document.getElementById('showcase-slider').scrollBy({ left: dir * 380, behavior: 'smooth' });
+        }
+
+        function toggleAccordion(idx) {
+            const content = document.getElementById(`acc-content-${idx}`);
+            const icon = document.getElementById(`acc-icon-${idx}`);
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        function toggleWaMenu() {
+            document.getElementById('wa-floating-menu').classList.toggle('hidden');
+        }
+
+        function toggleMobileNav() {
+            const drawer = document.getElementById('mobile-nav-drawer');
+            const icon = document.getElementById('mobile-nav-icon');
+            drawer.classList.toggle('hidden');
+            icon.textContent = drawer.classList.contains('hidden') ? 'menu' : 'close';
+        }
+
+        function directWa(serviceName) {
+            const text = `Hola *GRÁFICOS* 👋, vi su página web y quiero cotizar:\n👉 *${serviceName}*`;
+            window.open(`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+        }
+    </script>
+</body>
+</html>
